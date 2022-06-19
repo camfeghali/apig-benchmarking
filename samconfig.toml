@@ -1,0 +1,13 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "event-tracker"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-4p2fuggyzo1s"
+s3_prefix = "event-tracker"
+region = "eu-central-1"
+profile = "camille_personal"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
+disable_rollback = true
